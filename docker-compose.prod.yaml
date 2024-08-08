@@ -6,6 +6,8 @@ services:
       context: ./
       dockerfile: Dockerfile
     restart: always
+    ports:
+      - "3000:3000"
     environment:
       - DB_HOST=db # db container name, they have to match
       - DB_PORT=5432
