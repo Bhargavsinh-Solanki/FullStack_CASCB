@@ -17,7 +17,7 @@ start development server
 
 ```
 pnpm install 
-pnom run dev
+pnpm run dev
 ```
 
 ## Production
